@@ -1,14 +1,14 @@
 #include "shell.h"
 
 /**
- * * shell process
- *  1. prompt
- *   2. input
- *   3. parse
- *   4. eecute
- *   i
+ * shell process
+ * contrl_c - function for signak.t
+ * input
+ * @a: signal.
+ * @argc: count
+ * @argv: vector.
  *
- *   */
+ */
 void contrl_c(int a)
 {
 	if (a == SIGINT)
